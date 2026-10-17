@@ -1,0 +1,299 @@
+{
+  "scope": "Bundled reviewed samples only; not overall model capability",
+  "reports": [
+    {
+      "file": "baseline.json",
+      "passed": 28,
+      "total": 28,
+      "checks": [
+        {
+          "case": "page_count(0, 10)",
+          "passed": true,
+          "actual": "0"
+        },
+        {
+          "case": "page_count(1, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(9, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(10, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(11, 10)",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "page_count(20, 10)",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "page_count(1000000000000000000000000000000, 3)",
+          "passed": true,
+          "actual": "333333333333333333333333333334"
+        },
+        {
+          "case": "max_parallel: empty",
+          "passed": true,
+          "actual": "0"
+        },
+        {
+          "case": "max_parallel: single",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "max_parallel: touching",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "max_parallel: nested",
+          "passed": true,
+          "actual": "3"
+        },
+        {
+          "case": "max_parallel: unsorted",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "max_parallel: simultaneous starts and ends",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "max_parallel: negative times",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "parse_quantity: 1",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "parse_quantity: 25",
+          "passed": true,
+          "actual": "25"
+        },
+        {
+          "case": "parse_quantity: 50",
+          "passed": true,
+          "actual": "50"
+        },
+        {
+          "case": "parse_quantity rejects 0",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects 51",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects -1",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects True",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects False",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects '2'",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects None",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects 2.0",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects []",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects {}",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects missing field",
+          "passed": true,
+          "actual": "ValueError"
+        }
+      ]
+    },
+    {
+      "file": "plaincraft.json",
+      "passed": 28,
+      "total": 28,
+      "checks": [
+        {
+          "case": "page_count(0, 10)",
+          "passed": true,
+          "actual": "0"
+        },
+        {
+          "case": "page_count(1, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(9, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(10, 10)",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "page_count(11, 10)",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "page_count(20, 10)",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "page_count(1000000000000000000000000000000, 3)",
+          "passed": true,
+          "actual": "333333333333333333333333333334"
+        },
+        {
+          "case": "max_parallel: empty",
+          "passed": true,
+          "actual": "0"
+        },
+        {
+          "case": "max_parallel: single",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "max_parallel: touching",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "max_parallel: nested",
+          "passed": true,
+          "actual": "3"
+        },
+        {
+          "case": "max_parallel: unsorted",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "max_parallel: simultaneous starts and ends",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "max_parallel: negative times",
+          "passed": true,
+          "actual": "2"
+        },
+        {
+          "case": "parse_quantity: 1",
+          "passed": true,
+          "actual": "1"
+        },
+        {
+          "case": "parse_quantity: 25",
+          "passed": true,
+          "actual": "25"
+        },
+        {
+          "case": "parse_quantity: 50",
+          "passed": true,
+          "actual": "50"
+        },
+        {
+          "case": "parse_quantity rejects 0",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects 51",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects -1",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects True",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects False",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects '2'",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects None",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects 2.0",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects []",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects {}",
+          "passed": true,
+          "actual": "ValueError"
+        },
+        {
+          "case": "parse_quantity rejects missing field",
+          "passed": true,
+          "actual": "ValueError"
+        }
+      ]
+    }
+  ]
+}

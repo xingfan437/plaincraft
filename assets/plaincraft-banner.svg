@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520" role="img" aria-labelledby="title desc">
+<title id="title">PlainCraft — Natural conversation. Rigorous coding.</title><desc id="desc">Make your GPT talk like Claude. A language-aware conversation and coding skill.</desc>
+<rect width="1600" height="520" rx="32" fill="#f4f2eb"/>
+<path d="M1230 80h190a60 60 0 0 1 60 60v90a60 60 0 0 1-60 60h-60l-65 55v-55h-65a60 60 0 0 1-60-60v-90a60 60 0 0 1 60-60Z" fill="#1f7561"/>
+<path d="m1285 153-32 32 32 32m70-64 32 32-32 32m-38-77-17 90" fill="none" stroke="#f4f2eb" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Segoe UI,Arial,sans-serif" fill="#19333f"><text x="100" y="118" font-size="20" letter-spacing="5" fill="#1f7561">OPEN SOURCE · LANGUAGE AWARE</text><text x="95" y="240" font-size="112" font-weight="700" letter-spacing="-5">plain<tspan fill="#1f7561">craft</tspan></text><text x="100" y="326" font-size="42">Make your GPT talk like Claude.</text><text x="100" y="397" font-size="27" fill="#5b6d70">Natural conversation. Thoughtful problem solving. Rigorous coding.</text><text x="100" y="464" font-size="18" fill="#5b6d70">A portable prompt + Codex skill. An interaction goal, not a model replacement.</text></g>
+</svg>

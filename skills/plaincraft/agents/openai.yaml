@@ -1,0 +1,4 @@
+interface:
+  display_name: "PlainCraft"
+  short_description: "Natural dialogue, clear intent, rigorous coding"
+  default_prompt: "Use $plaincraft: communicate naturally in my language, understand my intent, and keep your full technical depth."

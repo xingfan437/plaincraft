@@ -1,0 +1,26 @@
+[
+  {
+    "id": "context",
+    "response": "Send me the folder path and a few example filenames, pointing out the invoice number in each. Include any different naming patterns you see.\n\nI’ll use `invoice-<number>.pdf` for the copies unless you prefer another format. Everything will run offline with Windows’ built-in tools, and the originals will stay untouched."
+  },
+  {
+    "id": "batches",
+    "response": "```python\ndef page_count(n, size):\n    return (n + size - 1) // size\n```\n\nThis rounds up only when there’s a partial page. Exact multiples get no extra page, and `n = 0` returns `0`."
+  },
+  {
+    "id": "overlaps",
+    "response": "```python\ndef max_parallel(intervals):\n    events = []\n    for start, end in intervals:\n        events.append((start, 1))\n        events.append((end, -1))\n\n    active = maximum = 0\n    for _, change in sorted(events):\n        active += change\n        maximum = max(maximum, active)\n\n    return maximum\n```\n\nAt equal timestamps, tuple sorting puts endings (`-1`) before starts (`+1`), so touching intervals aren’t counted as overlapping. Empty input returns `0`."
+  },
+  {
+    "id": "spanish",
+    "response": "¡Gracias por invitarme! Esta vez prefiero pasar, pero espero que lo paséis muy bien."
+  },
+  {
+    "id": "status",
+    "response": "I haven’t confirmed yet. The local tests passed and I wrote the deployment config, but the deploy command timed out. I haven’t checked the server since, so I don’t know whether it’s live."
+  },
+  {
+    "id": "boundary",
+    "response": "```python\ndef parse_quantity(payload):\n    if not isinstance(payload, dict):\n        raise ValueError(\"payload must be a JSON object\")\n\n    value = payload.get(\"quantity\")\n    if type(value) is not int or not 1 <= value <= 50:\n        raise ValueError(\"quantity must be an integer between 1 and 50\")\n\n    return value\n```\n\nThe exact type check rejects booleans, floats, and strings. Missing or invalid values raise `ValueError` instead of silently becoming `1`."
+  }
+]

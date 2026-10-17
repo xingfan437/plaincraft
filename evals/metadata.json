@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-17",
+  "revision": "PlainCraft 0.2.0 development entrypoint",
+  "skill_sha256": "68e475c4d247962d272e022dbf455620a225568a07eebe8a49c266da3bc7aa92",
+  "model": "Inherited parent model; no override, exact snapshot not independently recorded",
+  "conditions": [
+    "Fresh subagent, synthetic scenarios only",
+    "Fresh subagent, same scenarios plus PlainCraft SKILL.md"
+  ],
+  "samples_per_condition": 6,
+  "independent_scenarios": true,
+  "fresh_session_per_scenario": false,
+  "host_instructions": "Inherited in both conditions; baseline may overlap with skill guidance",
+  "review": "Unblinded author review; no external preference ratings",
+  "generated_with_live_api_harness": false
+}
